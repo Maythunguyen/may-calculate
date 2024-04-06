@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/may-calculate/static/css/main.1ea2ee4f.css",
+    "main.js": "/may-calculate/static/js/main.ed6d62fa.js",
+    "index.html": "/may-calculate/index.html",
+    "main.1ea2ee4f.css.map": "/may-calculate/static/css/main.1ea2ee4f.css.map",
+    "main.ed6d62fa.js.map": "/may-calculate/static/js/main.ed6d62fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ea2ee4f.css",
+    "static/js/main.ed6d62fa.js"
+  ]
+}

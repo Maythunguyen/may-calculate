@@ -3,10 +3,16 @@
 * {
     padding: 0;
     margin: 0;
-    font-size: 16px;
 }
 
-html, body {
+body {
+    margin: 0;
+  padding: 0;
+  font-size: 1rem;
+
+}
+
+html {
     font-family: "Tilt Neon", sans-serif;
     background: url('https://images.unsplash.com/photo-1504624855736-54c752430304?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
@@ -52,6 +58,10 @@ input {
 
 .total {
     margin-top: 1.5rem;
+}
+
+.total h1 {
+    font-size: 2rem;
 }
 
 
@@ -124,47 +134,37 @@ input {
   transform: translate(0, 5%);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+    html {
+        font-size: 14px; /* Reduce the base font size to scale everything down */
+    }
 
     .app {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 2rem;
-        margin-top: 3.75rem;
-       
+        gap: 2rem; /* Reduced gap */
+        margin-top: 2.5rem; /* Adjusted top margin */
     }
-    
+
     .heading h1 {
-        font-size: 2rem;
+        font-size: 2.5rem; /* Smaller font size for headings */
     }
-    
-    
+
     form {
-        display: flex;
-        justify-content: space-between;
-        gap: 1rem;
+        gap: 1rem; /* Reduced gap between form items */
     }
-    
+
     .cash-input {
-        min-width: 85%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        min-width: 85%; /* Increase min-width for better fit */
+        gap: 1rem; /* Reduced gap */
     }
-    
+
     input {
-        border: none;
-        padding: 10px;
-        border-radius: 10px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding: 0.625rem; /* Adjusted padding */
+        border-radius: 0.625rem; /* Adjusted border radius for inputs */
+        font-size: 0.875rem; /* Smaller font size in inputs */
     }
-    
-    .total {
-        margin-top: 1.25rem;
+
+    .total h1 {
+        margin-top: 1.25rem; /* Adjusted top margin */
+        font-size: 1.75rem; /* Smaller font size for total */
     }
-    
-
-
-    
 }

@@ -124,30 +124,30 @@ input {
   transform: translate(0, 5%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
 
     .app {
         display: flex;
         flex-direction: column;
         text-align: center;
-        gap: 1.5rem;
+        gap: 2rem;
         margin-top: 3.75rem;
        
     }
     
     .heading h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     
     
     form {
         display: flex;
         justify-content: space-between;
-        gap: 1.25rem;
+        gap: 1rem;
     }
     
     .cash-input {
-        min-width: 80%;
+        min-width: 85%;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

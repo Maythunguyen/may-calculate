@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/may-calculate/static/css/main.618a0d8f.css",
+    "main.css": "/may-calculate/static/css/main.443f28b9.css",
     "main.js": "/may-calculate/static/js/main.3206816a.js",
     "index.html": "/may-calculate/index.html",
-    "main.618a0d8f.css.map": "/may-calculate/static/css/main.618a0d8f.css.map",
+    "main.443f28b9.css.map": "/may-calculate/static/css/main.443f28b9.css.map",
     "main.3206816a.js.map": "/may-calculate/static/js/main.3206816a.js.map"
   },
   "entrypoints": [
-    "static/css/main.618a0d8f.css",
+    "static/css/main.443f28b9.css",
     "static/js/main.3206816a.js"
   ]
 }

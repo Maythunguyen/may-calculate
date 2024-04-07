@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/may-calculate/static/css/main.1ea2ee4f.css",
-    "main.js": "/may-calculate/static/js/main.ed6d62fa.js",
+    "main.css": "/may-calculate/static/css/main.618a0d8f.css",
+    "main.js": "/may-calculate/static/js/main.3206816a.js",
     "index.html": "/may-calculate/index.html",
-    "main.1ea2ee4f.css.map": "/may-calculate/static/css/main.1ea2ee4f.css.map",
-    "main.ed6d62fa.js.map": "/may-calculate/static/js/main.ed6d62fa.js.map"
+    "main.618a0d8f.css.map": "/may-calculate/static/css/main.618a0d8f.css.map",
+    "main.3206816a.js.map": "/may-calculate/static/js/main.3206816a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ea2ee4f.css",
-    "static/js/main.ed6d62fa.js"
+    "static/css/main.618a0d8f.css",
+    "static/js/main.3206816a.js"
   ]
 }

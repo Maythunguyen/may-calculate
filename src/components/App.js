@@ -11,8 +11,8 @@ function App() {
         '$5' : 0,
         '$2' : 0,
         '$1' : 0,
-        '50 cents' : 0,
-        '20 cents' : 0
+        '$0.5' : 0,
+        '$0.2' : 0
     })
 
     const [totalCash,setTotalCash] = useState(0)
@@ -39,7 +39,7 @@ function App() {
                                 key === '$5' ? 5:
                                 key === '$2' ? 2:
                                 key === '$1' ? 1:
-                                key === '50 cents' ? 0.5:
+                                key === '$0.5' ? 0.5:
                                 0.2
         return total + (value * multiplier);
         }, 0)
